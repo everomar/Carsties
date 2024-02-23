@@ -10,7 +10,7 @@ export const authOptions: NextAuthOptions = {
             id: 'id-server',
             clientId: 'nextApp',
             clientSecret: 'secret',
-            issuer: 'http://localhost:5000',
+            issuer: process.env.ID_URL,
             authorization: {params: {scope: 'openid profile auctionApp'}},
             idToken: true
         })
@@ -32,7 +32,7 @@ export const authOptions: NextAuthOptions = {
             return session;
         }
     }
-} 
+}
 
-const handler = NextAuth(authOptions);
+const handler = NextAuth(authOptions)
 export { handler as GET, handler as POST }
