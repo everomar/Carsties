@@ -3,7 +3,7 @@
 namespace IdentityServer;
 
 
-//Configuration file
+//Configuration file (Identity Server)
 public static class Config
 {
     public static IEnumerable<IdentityResource> IdentityResources =>
