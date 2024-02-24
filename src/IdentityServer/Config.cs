@@ -2,6 +2,8 @@
 
 namespace IdentityServer;
 
+
+//Configuration file
 public static class Config
 {
     public static IEnumerable<IdentityResource> IdentityResources =>

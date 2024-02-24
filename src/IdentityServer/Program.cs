@@ -24,6 +24,7 @@ try
 
     // this seeding is only for the template to bootstrap the DB and users.
     // in production you will likely want a different approach.
+    // Seeding users bob and alice to the database
     if (args.Contains("/seed"))
     {
         Log.Information("Seeding database...");

@@ -8,6 +8,7 @@ using Serilog;
 
 namespace IdentityServer;
 
+//Send Data 
 public class SeedData
 {
     public static void EnsureSeedData(WebApplication app)
