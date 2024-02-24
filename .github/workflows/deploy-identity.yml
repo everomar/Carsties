@@ -31,4 +31,4 @@ jobs:
         context: .
         file: src/IdentityService/Dockerfile
         push: true
-        tags: everomar/identity-svc:latest
+        tags: everportillo/identity-svc:latest
