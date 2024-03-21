@@ -38,7 +38,6 @@ try
         .WaitAndRetry(5, retryAttempt => TimeSpan.FromSeconds(10));
     retryPolicy.ExecuteAndCapture(() => SeedData.EnsureSeedData(app));
 
-
     app.Run();
 }
 catch (Exception ex) when (
