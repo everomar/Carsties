@@ -5,7 +5,6 @@ using AuctionService.RequestHelpers;
 using AutoFixture;
 using AutoMapper;
 using MassTransit;
-using MassTransit.NewIdProviders;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;

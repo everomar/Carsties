@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-using AuctionService.Entities;
-
+﻿
 namespace AuctionService.Entities;
 
 public class Auction
